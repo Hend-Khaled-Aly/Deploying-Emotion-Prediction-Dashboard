@@ -24,14 +24,23 @@ This repository focuses on deploying that application using:
 ## 📂 Repository Structure
 
 Deploying-Emotion-Prediction-Dashboard/
+
 │
+
 ├── assets/                    # Images/icons for each predicted emotion
+
 ├── data/                      # Contains the dataset (social_media_emotions)
+
 ├── rf_pipeline.pkl            # Pre-trained Random Forest model pipeline
+
 ├── app.py                     # Main Dash application code
+
 ├── Dockerfile                 # Docker image setup
+
 ├── fly.toml                   # Fly.io configuration file
+
 ├── Procfile                  # For deployment process definition
+
 ├── requirements.txt           # Python dependencies
 
 ---
@@ -40,15 +49,15 @@ Deploying-Emotion-Prediction-Dashboard/
 
 If you'd like to run this project locally:
 1. Clone the repository
-git clone https://github.com/your-username/Deploying-Emotion-Prediction-Dashboard.git
-cd Deploying-Emotion-Prediction-Dashboard
+  git clone https://github.com/your-username/Deploying-Emotion-Prediction-Dashboard.git
+  cd Deploying-Emotion-Prediction-Dashboard
 
 2. Build and run with Docker
-docker build -t emotion-dashboard .
-docker run -p 8050:8050 emotion-dashboard
+  docker build -t emotion-dashboard .
+  docker run -p 8050:8050 emotion-dashboard
 
 3. Open your browser and visit:
-http://localhost:8050
+  http://localhost:8050
 
 ---
 
