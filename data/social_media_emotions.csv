@@ -1,4 +1,4 @@
-User_ID,age,Gender,Platform,Daily_Usage_Time (minutes),Posts_Per_Day,Likes_Received_Per_Day,Comments_Received_Per_Day,Messages_Sent_Per_Day,Dominant_Emotion
+User_ID,Age,Gender,Platform,Daily_Usage_Time (minutes),Posts_Per_Day,Likes_Received_Per_Day,Comments_Received_Per_Day,Messages_Sent_Per_Day,Dominant_Emotion
 1.0,25.0,Female,Instagram,120.0,3.0,45.0,10.0,12.0,Happiness
 2.0,30.0,Male,Twitter,90.0,5.0,20.0,25.0,30.0,Anger
 3.0,22.0,Non-binary,Facebook,60.0,2.0,15.0,5.0,20.0,Neutral
